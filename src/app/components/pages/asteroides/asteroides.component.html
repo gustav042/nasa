@@ -1,0 +1,19 @@
+<div class="Tela-asteroide">
+    <app-calendario (changeDate)="onChangeDate($event)"></app-calendario>
+    <ul>
+        <li *ngFor="let asteroide of asteroides">
+            <div id = "IconeEInformacao"> 
+                <div id = "icone">
+                    <img src="././assets/asteroide.png" style="width: 80px;" alt="Foto do dia">
+                </div>
+                <div id = "informacao">
+                    <div class="linha"> <div class="conteudo"> <h3> Nome: </h3> </div> <div class="conteudo">{{ asteroide.nome }} </div> </div>
+                    <div class="linha"> <div class="conteudo"> <h3> Tamanho mín. estimado (Km): </h3> </div> <div class="conteudo">{{ asteroide.tamanho_minimo }} </div> </div>
+                    <div class="linha"> <div class="conteudo"> <h3> Tamanho máx. estimado (Km): </h3> </div> <div class="conteudo">{{ asteroide.tamanho_maximo }} </div> </div>
+                    <div class="linha"> <div class="conteudo"> <h4> Distância que passou da terra (Em bilhões de Km): </h4> </div> <div class="conteudo">{{ asteroide.distancia }} </div> </div>
+                </div>
+                   
+            </div>
+        </li>
+    </ul>
+</div>

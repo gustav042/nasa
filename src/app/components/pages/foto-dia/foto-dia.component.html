@@ -1,0 +1,16 @@
+<div class="fotoDia">
+    <app-calendario (changeDate)="onChangeDate($event)"></app-calendario>
+    <div id="fotoEDescricao">
+        <div *ngIf="mostraErro === false; else imgNotFound" class="img-container">
+            <img src="{{foto.source}}" alt="Foto do dia">
+        </div>
+        <ng-template #imgNotFound>
+            <h2>Imagem não encontrada</h2>
+            <p id="erro">O problema pode ser relacionado a sua conexão com a internet ou com a API da Nasa</p>
+        </ng-template>
+        <div id="descricao">
+            <h2>{{foto.titlePhoto}}</h2>
+            <p> {{foto.descricao}}</p>
+        </div>
+    </div>
+</div>

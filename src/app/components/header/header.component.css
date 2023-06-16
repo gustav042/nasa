@@ -1,0 +1,47 @@
+img{
+    height: 4rem;
+}
+
+#imgNasa{
+    height: 6rem;
+}
+.top{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child2{
+    margin-left: 2.5rem;
+}
+
+.child{
+    font-family: 'Bruno Ace SC', cursive;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icone{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icones{
+    width: 25rem;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+  

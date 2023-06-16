@@ -1,0 +1,55 @@
+.fotoDia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#fotoEDescricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20rem;
+    display: inline;
+    border: wheat 5px solid;
+}
+.img-container{
+    position: relative;
+    text-align: center;
+    margin: 1rem;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.background{
+    width: 100%;
+}
+
+p{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#erro{
+    text-align: center;
+    color: red;
+}
+  
